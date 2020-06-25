@@ -1,7 +1,7 @@
 <?php 
 
 function asabest_scripts() {
-	// up / on bu wp_head();
+	// up / on by wp_head();
 	wp_enqueue_style( 'asabest', get_stylesheet_uri() );
 	wp_enqueue_style('bootstrap.min',  get_template_directory_uri() . '/assets/css/bootstrap.min.css');
 
